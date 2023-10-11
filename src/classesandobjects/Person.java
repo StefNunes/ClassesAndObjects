@@ -18,11 +18,27 @@ public class Person {
     Triangle favTriangle; 
     
     
+   public Person() {
+       age = 24;
+       name = "Stefani";
+       System.out.println("Constructor 1");
+   }
     
-   
     
+    public Person(int age) {
+       this.age= age;
+       System.out.println("Constructor 2");
+   }
     
+     public Person(int age, String Name) {
+       this.age= age;
+       this.name = name;
+       System.out.println("Constructor 3");
+   }
     
+     public Person(String Name, int age) {
+       System.out.println("Constructor 4");
+   }
     
     
     

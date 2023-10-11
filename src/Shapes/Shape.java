@@ -11,8 +11,18 @@ package Shapes;
 public abstract class Shape {
     
     private boolean isFilled = true;
-    protected String colour = "Yellow"; // protected mean that everybody can see and public too but as private is not possible
+    protected String colour = "Yellow"; // Protected: Provides the same access as the default access modifier, and allows subclasses to access protected methods and attributes of the superclass.
 
+    public Shape() {
+        System.out.println("Shape 1");
+    }
+     public Shape(boolean isFilled, String colour) {
+        this.isFilled = isFilled;
+        this.colour = colour;
+        System.out.println("Shape 2");
+    }
+    
+ 
     public boolean isIsFilled() {
         return isFilled;
     }
