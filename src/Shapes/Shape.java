@@ -11,7 +11,7 @@ package Shapes;
 public abstract class Shape {
     
     private boolean isFilled = true;
-    protected String colour = "Yellow";
+    protected String colour = "Yellow"; // protected mean that everybody can see and public too but as private is not possible
 
     public boolean isIsFilled() {
         return isFilled;

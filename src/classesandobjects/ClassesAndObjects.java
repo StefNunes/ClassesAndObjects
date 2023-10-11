@@ -19,6 +19,7 @@ public class ClassesAndObjects {
     public static void main(String[] args) {
        
       Triangle tri1 = new Triangle();
+        System.out.println(tri1);
       Triangle tri2 = new Triangle();
       Triangle tri3 = new Triangle();
       Triangle tri4 = new Triangle();

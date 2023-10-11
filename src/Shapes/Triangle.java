@@ -56,4 +56,9 @@ public class Triangle extends Shape {
             this.colour = colour;
         }
     }
+    
+    @Override
+    public String toString() {
+        return "Hello I am a triangle with the colour of: " + colour;
+    }
 }
