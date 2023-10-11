@@ -4,6 +4,9 @@
  */
 package classesandobjects;
 
+import Shapes.Rectangle;
+import Shapes.Triangle;
+
 /**
  *
  * @author Stefani Nunes
@@ -33,9 +36,12 @@ public class ClassesAndObjects {
       sideLenghts[13] = 8;
       sideLenghts[14]= 9;
          
+       Person Stefani = new Person();
+       Stefani.favTriangle = tri5;
       
-      
-      
+      Rectangle rect1 = new Rectangle();
+        System.out.println(rect1.getArea());
+             
       
     }
     
